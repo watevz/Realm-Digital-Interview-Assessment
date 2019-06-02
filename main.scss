@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    color: white;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .wrapper > * {
+    padding: 20px;
+  }
+  
+  .page-main {
+    flex-grow: 1;
+    background-color: #331E4D;
+  }
+  
+.grid-row {
+    flex-grow: 1;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-column {
+    flex-grow: inherit;
+    flex: 1;
+    background-color: green;
+    padding: 10px;
+    border: 5px; 
+    border-color: black;
+}
+
+.webName {
+    flex: 1;
+    background-color: blueviolet;
+}
+
+
