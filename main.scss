@@ -35,10 +35,35 @@ html, body {
 .button {
   height: 25%;
   width: 100%;
+  border-radius: 25px;
   align-content: center;
   justify-content: center;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
+div.search{
+  border: none;
+}
+div.search input[type=text] {
+  float: left;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+div.search button {
+  float: left;
+  width: 20%;
+  background-color: #2196F3;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+div.search-icon{
+  background-image: url(searchIcon.png);
+}
+
+
 
 /* For mobile phones: */
 [class*="col-"] {
